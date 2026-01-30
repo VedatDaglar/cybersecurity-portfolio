@@ -1,8 +1,8 @@
 # 🛡️ Cybersecurity Portfolio
 
 ## About Me
-I am a motivated entry-level cybersecurity professional currently completing the Google Cybersecurity Professional Certificate.  
-This portfolio showcases my hands-on labs, incident documentation, Linux & SQL tasks, and security analysis work.
+
+I am an entry-level cybersecurity professional with a strong interest in protecting systems, data, and people from security threats. I value responsibility, attention to detail, and continuous learning, and I am currently developing my skills through the Google Cybersecurity Professional Certificate. I aim to support organizations by contributing to effective security practices and maintaining a strong security posture.
 
 ## Skills
 - Security fundamentals
