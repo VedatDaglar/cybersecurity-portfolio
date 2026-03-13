@@ -19,6 +19,10 @@ I am an entry-level cybersecurity professional with a strong interest in protect
 - 🔍 Vulnerability Analysis
 - 📄 Resume
 
+## Featured Notes
+
+- [Security Foundations Summary](vulnerability-analysis/security-foundations-summary.md)
+- [Incident Journal Sample](incident-response/incident-journal-sample.md)
+
 ## Disclaimer
 All projects are educational and based on lab simulations. No real or proprietary data is included.
-
