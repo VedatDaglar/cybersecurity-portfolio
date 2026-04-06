@@ -22,6 +22,7 @@ I am an entry-level cybersecurity professional with a strong interest in protect
 ## Featured Notes
 
 - [Security Foundations Summary](vulnerability-analysis/security-foundations-summary.md)
+- [Botium Toys Security Audit Summary](vulnerability-analysis/botium-toys-security-audit.md)
 - [Incident Journal Sample](incident-response/incident-journal-sample.md)
 
 ## Disclaimer
