@@ -37,7 +37,8 @@ My goal is to become ready for entry-level cybersecurity positions such as:
 ## Study Notes
 
 - [Day 1 — Networking Foundations](notes/day-01.md)
-
+- [Day 2 — Network Services and Diagnostics](notes/day-02.md)
+- [IP Addressing Basics](network/ip-basics.md)
 ## Current Focus
 
 - Networking fundamentals
