@@ -1,48 +1,67 @@
 # Cybersecurity Portfolio
 
-Welcome to my cybersecurity portfolio.
+This repository contains my cybersecurity study notes, practical exercises and portfolio projects. It documents my progress in networking, Linux and security operations.
 
 ## About Me
 
-I am transitioning into cybersecurity with previous professional experience in software testing and test automation.
+I am transitioning into cybersecurity with professional experience in software testing and test automation.
 
-My QA/SDET background includes Java, Selenium, API testing, SQL, Git, Jenkins and structured defect reporting. I am currently developing practical skills in networking, Linux, security operations, log analysis and incident investigation.
+My QA/SDET background includes Java, Selenium, API testing, SQL, Git and Jenkins. This experience has helped me develop a structured approach to investigating problems, documenting evidence and reporting findings.
 
-## Current Level
+I am now applying these skills to cybersecurity while building practical experience in network analysis, log analysis and incident investigation.
 
-I am currently building my cybersecurity foundations through:
+## Learning and Practice
 
-- Google Cybersecurity Professional Certificate
+My current learning activities include:
+
+- Google Cybersecurity Professional Certificate — in progress
 - TryHackMe hands-on labs
-- Networking and Linux practice
-- Security notes and portfolio projects
+- Networking and Linux exercises
+- Security analysis notes and portfolio projects
 
 ## Career Goal
 
-My goal is to become ready for entry-level cybersecurity positions such as:
+I am preparing for entry-level roles in security operations and cybersecurity analysis, with a primary focus on Junior SOC Analyst positions.
 
-- Junior SOC Analyst
-- Cybersecurity Analyst
-- Security Operations Analyst
-- Security Testing Analyst
+## Technical Focus
 
-## What I Learned Today
-
-1. Private IPv4 addresses are used inside local networks.
-2. An IP address identifies a host, while a port identifies a service or process.
-3. TCP provides reliable and ordered delivery, while UDP prioritizes speed.
-4. TCP establishes a connection using the SYN, SYN-ACK and ACK handshake.
-5. Data is encapsulated as Data → Segment/Datagram → Packet → Frame → Bits.
+| Area | Topics |
+|---|---|
+| Networking | TCP/IP, OSI model, IP addressing, ports and network protocols |
+| Network security | Wireless security, secure protocols and traffic analysis |
+| Linux | Command line, file management, permissions and logs |
+| Security operations | Alert triage, evidence collection and incident documentation |
+| Testing and automation | API testing, SQL, Java and structured reporting |
 
 ## Study Notes
 
-- [Day 1 — Networking Foundations](notes/day-01.md)
-- [Day 2 — Network Services and Diagnostics](notes/day-02.md)
+- [Networking Foundations](notes/day-01.md)
+- [Network Services and Diagnostics](notes/day-02.md)
 - [IP Addressing Basics](network/ip-basics.md)
+- [Wireless Security Basics](network/wireless-security.md)
+
+## Networking Foundations
+
+Key concepts covered in my study notes include:
+
+- Private IPv4 addresses are used within private networks.
+- IP addresses identify network interfaces, while ports help direct traffic to applications and services.
+- TCP provides reliable, ordered delivery. UDP does not guarantee delivery or ordering.
+- TCP establishes a connection using the SYN, SYN-ACK and ACK handshake.
+- Encapsulation adds information at each network layer: Data → Segment/Datagram → Packet → Frame → Bits.
+
+## Documentation Approach
+
+For each practical exercise, I aim to record:
+
+- The purpose of the exercise
+- The tools and steps used
+- The results and supporting evidence
+- Any limitations or unanswered questions
+- What I learned and what I need to practise next
+
+Study summaries and practical exercises are clearly identified. Completed work is documented based on what I actually observed.
+
 ## Current Focus
 
-- Networking fundamentals
-- TCP/IP and the OSI model
-- Linux command line
-- SOC fundamentals
-- Practical security laboratories
+I am currently strengthening my networking foundations, Linux command-line skills and understanding of SOC workflows.
