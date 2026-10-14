@@ -39,6 +39,7 @@ I am preparing for entry-level roles in security operations and cybersecurity an
 - [Network Services and Diagnostics](notes/day-02.md)
 - [IP Addressing Basics](network/ip-basics.md)
 - [Wireless Security Basics](network/wireless-security.md)
+- [Firewalls, VPNs and Security Zones](network/security-zones.md)
 
 ## Networking Foundations
 
