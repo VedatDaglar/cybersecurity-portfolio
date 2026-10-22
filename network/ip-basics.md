@@ -49,12 +49,9 @@ For a remote destination reached through the gateway, it uses the gateway's MAC 
 
 | Device | IP address | Network |
 |---|---|---|
-| Client | `192.168.10.25/24` |
-`192.168.10.0/24` |
-| Web server | `203.0.113.10/24` |
-`203.0.113.0/24` |
-| Client gateway | `192.168.10.1/24` |
-`192.168.10.0/24` |
+| Client | `192.168.10.25/24` | `192.168.10.0/24` |
+| Web server | `203.0.113.10/24` | `203.0.113.0/24` |
+| Client gateway | `192.168.10.1/24` | `192.168.10.0/24` |
 
 The client and web server are in different networks. The client sends the packet to its gateway, and routers forward it towards the destination.
 
