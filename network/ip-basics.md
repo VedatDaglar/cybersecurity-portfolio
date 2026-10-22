@@ -104,6 +104,48 @@ For this subnet:
 
 Subnetting separates address ranges. Firewall or access control rules are needed to restrict traffic between them.
 
+### Comparing /24 and /16
+
+This is a theoretical example, not a configured network test.
+
+Consider two devices:
+
+- Laptop: 192.168.10.25
+- Server: 192.168.20.25
+
+| Prefix used by both devices | Laptop subnet | Server subnet | Same subnet? |
+|---|---|---|---|
+| /24 | 192.168.10.0/24 | 192.168.20.0/24 | No |
+| /16 | 192.168.0.0/16 | 192.168.0.0/16 | Yes |
+
+#### With /24
+
+The server is outside the laptop's subnet.
+
+Assume the laptop uses a default gateway at 192.168.10.1
+and has no more specific route to the server.
+
+The laptop forwards the packet to the gateway. If needed,
+ARP finds the gateway's MAC address, not the remote server's.
+
+#### With /16
+
+Both addresses belong to the same subnet.
+
+If both devices share the same local Ethernet network,
+the laptop can use ARP to find the server's MAC address
+and communicate directly.
+
+#### What this shows
+
+The subnet prefix changes whether a destination is treated
+as local or remote. The IP addresses alone are not enough.
+
+#### Limitations
+
+Changing a subnet mask alone does not guarantee connectivity.
+The network layout, routing, and access rules must also allow it.
+
 ## Proxy Servers
 
 A proxy handles requests on behalf of another system.
