@@ -66,3 +66,10 @@ Study summaries and practical exercises are clearly identified. Completed work i
 ## Current Focus
 
 I am currently strengthening my networking foundations, Linux command-line skills and understanding of SOC workflows.
+
+## Open Source Contributions
+
+- **ZAP website — Documentation improvement:** Clarified where
+  contributors can find the required Node.js version before
+  installing dependencies.
+  [Merged pull request #4069](https://github.com/zaproxy/zaproxy-website/pull/4069)
