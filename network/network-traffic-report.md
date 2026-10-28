@@ -285,6 +285,48 @@ tcp[tcpflags] == tcp-rst
 
 No. It changes the display format, not the encryption.
 
+## SYN Flood Analysis — Training Scenario
+
+### Source and Purpose
+
+I reviewed the TCP/HTTP log spreadsheet provided in the Google
+Cybersecurity course to investigate a website connection problem.
+
+This analysis used a supplied log, not a live capture or a PCAP
+that I opened in Wireshark.
+
+### Observations
+
+| Evidence | Observation |
+|---|---|
+| Suspicious traffic | Repeated SYN packets from `203.0.113.0` to `192.0.2.1` on TCP port `443`. |
+| Entries 55, 56 and 58 | A legitimate client completed the TCP handshake. |
+| Entries 60 and 62 | The client requested `/sales.html` and received HTTP `200 OK`. |
+| Entry 73 | The server sent a TCP `RST, ACK` response to a legitimate client. |
+| Entry 77 | The log recorded a `504 Gateway Time-out` message. |
+| Entry 125 onward | The remaining log showed repeated incoming SYN packets without further server responses. |
+
+### Interpretation
+
+The pattern is consistent with a suspected SYN flood DoS attack.
+Repeated SYN requests can consume connection-handling resources,
+especially when handshakes remain incomplete.
+
+The observed resets and timeout errors indicate disruption to
+website availability.
+
+Only one suspicious source IP is visible. The supplied log does
+not demonstrate a distributed attack.
+
+### Limitations
+
+- This was a guided training scenario using a supplied spreadsheet.
+- I used AI assistance to understand the evidence and prepare my report.
+- I did not measure server resource usage or inspect server logs.
+- The log does not confirm that the server crashed.
+- The time values represent elapsed seconds, not clock times.
+- No recovery or mitigation result was provided.
+
 ## Results
 
 I completed Wireshark: The Basics and practised inspecting
