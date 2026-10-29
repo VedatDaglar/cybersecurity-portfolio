@@ -529,6 +529,26 @@ flowchart TD
 
 An attack can affect more than one property. HTTPS protects content but does not by itself stop DoS. A SYN or RST packet alone is not proof of an attack. DoS does not require spoofing, prior sniffing or a complete server crash.
 
+### Additional attack concepts
+
+| Concept | What I learned | Everyday example |
+|---|---|---|
+| Passive packet sniffing | Observing available traffic without changing it. The capture location determines what is visible. | Someone reads an unencrypted message passing through a network they can monitor. |
+| Active packet sniffing | Manipulating network traffic or its delivery to make interception possible. | An attacker redirects a device's traffic through their own machine. |
+| Botnet | A group of compromised devices controlled by an attacker. A botnet can be used for DDoS and other activities. | Many infected home cameras send unwanted traffic to an online shop at the same time. |
+| ICMP flood | A large volume of ICMP traffic can consume network or processing capacity. | A company's connection becomes overloaded, preventing customers from reaching its website. |
+| Ping of death | A historical attack involving malformed, oversized packets after reassembly. It differs from sending many normal-sized ping requests. | A vulnerable device fails while trying to process an invalid packet. |
+
+### An important distinction
+
+Packet sniffing is an observation technique and can also be used
+for legitimate troubleshooting. IP spoofing changes a packet's
+source IP address. Neither technique automatically gives an
+attacker access to a system.
+
+These are study examples, not attacks I performed or observed
+in a new capture.
+
 [Back to contents](#contents)
 
 ---
